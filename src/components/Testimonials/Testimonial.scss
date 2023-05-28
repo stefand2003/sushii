@@ -1,0 +1,72 @@
+.testimonial {
+  padding-top: 80px;
+  padding-bottom: 150px;
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4 {
+      margin: 0;
+      font-size: 18px;
+      color: #9831c0;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__card {
+    width: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &--comment {
+      p {
+        font-size: 20px;
+        width: 400px;
+        text-align: center;
+        line-height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .userInfo {
+        display: flex;
+        justify-content: center;
+        ul {
+          list-style: none;
+          padding-left: 10px;
+
+          :first-child {
+            font-size: 18px;
+            font-weight: bold;
+          }
+
+          :last-child {
+            font-size: 14px;
+            margin-top: 5px;
+          }
+        }
+
+        img {
+          width: 40px;
+        }
+      }
+    }
+
+    &--photo {
+      height: 350px;
+      border-top-left-radius: 80px;
+      border-bottom-right-radius: 80px;
+    }
+  }
+}

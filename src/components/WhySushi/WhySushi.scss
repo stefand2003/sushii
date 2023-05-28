@@ -1,0 +1,43 @@
+.whySushi {
+  padding: 220px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  display: flex;
+  gap: 60px;
+
+  img {
+    width: 550px;
+  }
+
+  &__display {
+    h4 {
+      color: #9831c0;
+    }
+
+    h1 {
+      width: 300px;
+      font-size: 40px;
+      margin: 0px;
+    }
+
+    p {
+      line-height: 25px;
+    }
+
+    button {
+      margin-top: 15px;
+      margin-bottom: 25px;
+
+      border: none;
+      border-radius: 50px;
+      padding: 10px;
+      width: 150px;
+      height: 50px;
+
+      background-color: #9831c0;
+      color: white;
+      font-size: 14px;
+    }
+  }
+}
