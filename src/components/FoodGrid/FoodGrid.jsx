@@ -12,7 +12,7 @@ export default function FoodGrid() {
   return (
     <div className='grid'>
       <div className='grid__header'>
-        <h4>A little bit about us</h4>
+        <h4>The Food</h4>
         <h1>Most Popular Dishes </h1>
       </div>
 
@@ -108,7 +108,7 @@ export default function FoodGrid() {
           <div className='background'>
             <div className='grid__card--header'>
               <h3>Temarisushi</h3>
-              <h4>$4.55/1pc</h4>
+              <h4>$8.55/1pc</h4>
             </div>
 
             <ul className='grid__card--rating'>

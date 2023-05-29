@@ -10,7 +10,7 @@ import LinkedIn from '../../assets/LinkedIn.svg';
 export default function FooterNotes() {
   return (
     <div className='footerNotes'>
-      <section>
+      <section className='footerNotes__face'>
         <ul className='footerNotes__header'>
           <li>
             <img src={Logo} />

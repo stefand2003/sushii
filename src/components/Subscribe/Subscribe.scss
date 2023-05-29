@@ -1,59 +1,107 @@
 .subscribe {
-  width: fit-content;
-  height: fit-content;
-  padding-right: 100px;
+  @media screen and (max-width: 478px) {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 30px;
 
-  display: flex;
-  gap: 150px;
-  align-items: center;
-  height: 320px;
-  width: 900px;
+    &__banner {
+      display: none;
+    }
 
-  background-color: rgb(34, 34, 34);
-  border-top-left-radius: 60px;
-  border-bottom-right-radius: 60px;
+    &__info {
+      text-align: center;
 
-  margin-left: auto;
-  margin-right: auto;
+      h1,
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 80vw;
+      }
 
-  margin-bottom: 200px;
+      p {
+        margin-bottom: 30px;
+      }
+      input {
+        padding: 10px;
+        border-radius: 10px;
+        width: 65vw;
+        height: 30px;
+      }
 
-  &__banner {
-    width: 100px;
-    transform: translate(100px, 0px);
+      button {
+        text-align: center;
+        width: 100px;
+        padding: 10px;
+        height: 40px;
+        background-color: #9831c0;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 35px;
+        font-size: 12px;
+
+        transform: translate(20vw, -46px);
+      }
+    }
   }
 
-  &__info {
-    color: white;
-    h1 {
-      font-size: 45px;
-      margin-bottom: 0px;
-      padding: 0px;
-    }
-    p {
-      width: 700px;
-      margin-bottom: 40px;
-    }
-    input {
-      padding: 10px;
-      border-radius: 10px;
-      width: 400px;
-      height: 30px;
+  @media screen and (min-width: 1185px) and (max-width: 2000px) {
+    width: fit-content;
+    height: fit-content;
+    padding-right: 100px;
+
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    height: 320px;
+    width: 900px;
+
+    background-color: rgb(34, 34, 34);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 200px;
+
+    &__banner {
+      width: 100px;
+      transform: translate(100px, 0px);
     }
 
-    button {
-      text-align: center;
-      width: 150px;
-      padding: 10px;
-      height: 40px;
-      background-color: #9831c0;
-      border: none;
-      border-radius: 10px;
+    &__info {
       color: white;
-      font-weight: bold;
-      margin-bottom: 35px;
+      h1 {
+        font-size: 45px;
+        margin-bottom: 0px;
+        padding: 0px;
+      }
+      p {
+        width: 700px;
+        margin-bottom: 40px;
+      }
+      input {
+        padding: 10px;
+        border-radius: 10px;
+        width: 400px;
+        height: 30px;
+      }
 
-      transform: translate(-155px);
+      button {
+        text-align: center;
+        width: 150px;
+        padding: 10px;
+        height: 40px;
+        background-color: #9831c0;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 35px;
+
+        transform: translate(-155px);
+      }
     }
   }
 }
