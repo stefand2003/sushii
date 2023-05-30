@@ -15,7 +15,7 @@ export default function Subscribe() {
           delicious but delicious on a reasonable price.
         </p>
 
-        <div>
+        <div className='subscribe__email'>
           <input type='text' placeholder='Email address' />
           <button>SUBSCRIBE</button>
         </div>
