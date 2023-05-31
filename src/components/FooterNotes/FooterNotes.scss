@@ -1,5 +1,5 @@
 .footerNotes {
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 1005px) {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -87,7 +87,7 @@
     }
   }
 
-  @media screen and (min-width: 1185px) and (max-width: 2000px) {
+  @media screen and (min-width: 1006px) and (max-width: 1935px) {
     display: flex;
     justify-content: center;
     padding: 50px;

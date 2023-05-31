@@ -1,5 +1,5 @@
 .testimonial {
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 650px) {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,83 @@
     }
   }
 
-  @media screen and (min-width: 1185px) and (max-width: 2000px) {
+  @media screen and (min-width: 651px) and (max-width: 999px) {
+    padding-top: 80px;
+    padding-bottom: 150px;
+
+    &__header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h4 {
+        margin: 0;
+        font-size: 18px;
+        color: #9831c0;
+      }
+
+      h1 {
+        font-size: 50px;
+        margin-bottom: 60px;
+      }
+    }
+
+    &__card {
+      width: fit-content;
+
+      display: flex;
+      flex-direction: column-reverse;
+
+      justify-content: center;
+      align-items: center;
+
+      gap: 50px;
+      margin-left: auto;
+      margin-right: auto;
+
+      &--comment {
+        p {
+          font-size: 20px;
+          width: 400px;
+          text-align: center;
+          line-height: 30px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .userInfo {
+          display: flex;
+          justify-content: center;
+          ul {
+            list-style: none;
+            padding-left: 10px;
+
+            :first-child {
+              font-size: 18px;
+              font-weight: bold;
+            }
+
+            :last-child {
+              font-size: 14px;
+              margin-top: 5px;
+            }
+          }
+
+          img {
+            width: 40px;
+          }
+        }
+      }
+
+      &--photo {
+        height: 350px;
+        border-top-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 1935px) {
     padding-top: 80px;
     padding-bottom: 150px;
 

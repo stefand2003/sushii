@@ -19,7 +19,7 @@ export default function AboutUs() {
         <p>Find us</p>
       </div>
 
-      <div className='about__card'>
+      <div className='about__card--end'>
         <img src={Call} />
         <h4>+44 020 5678 908</h4>
         <p>Call us</p>

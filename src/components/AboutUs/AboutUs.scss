@@ -1,5 +1,5 @@
 .about {
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 830px) {
     border: 0.5px gray solid;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -79,9 +79,134 @@
         margin: 0px;
       }
     }
+
+    &__card--end {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 35px;
+      }
+
+      h4 {
+        margin: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 20px;
+      }
+
+      p {
+        margin: 0px;
+      }
+    }
   }
 
-  @media screen and (min-width: 1185px) and (max-width: 2000px) {
+  @media screen and (min-width: 831px) and (max-width: 1310px) {
+    border: 0.5px gray solid;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 100px whitesmoke;
+
+    background-color: white;
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    // padding: 3vw;
+
+    width: 70vw;
+    transform: translate(0px, -120px);
+
+    padding: 30px;
+
+    &__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 20vw;
+      margin-bottom: 0px;
+
+      img {
+        width: 4vw;
+      }
+
+      h4 {
+        margin: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 1.8vw;
+        width: 210px;
+        text-align: center;
+      }
+
+      p {
+        margin: 0px;
+        font-size: 1.8vw;
+      }
+    }
+
+    &__card--middle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      border-left: 1px lightgray solid;
+      border-right: 1px lightgray solid;
+
+      padding: 50px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+
+      img {
+        width: 4vw;
+      }
+
+      h4 {
+        margin: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 1.8vw;
+        width: 25vw;
+        text-align: center;
+      }
+
+      p {
+        margin: 0px;
+        font-size: 1.8vw;
+      }
+    }
+
+    &__card--end {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 20vw;
+      margin-bottom: 0px;
+
+      img {
+        width: 4vw;
+      }
+
+      h4 {
+        margin: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 2vw;
+        width: 200px;
+        text-align: center;
+      }
+
+      p {
+        margin: 0px;
+        font-size: 1.8vw;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1310px) and (max-width: 1935px) {
     border: 0.5px gray solid;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
